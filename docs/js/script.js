@@ -9,7 +9,7 @@ $(function () {
   $(".hamburger").on("click", function (e) {
     $(this).toggleClass("is-active"),
       e.preventDefault(),
-      $(".header__menu-list").toggleClass("is-active")
+      $(".header__nav-right").toggleClass("is-active")
   });
   $('a[href^="#"]').click(function () {
     let anchor = $(this).attr('href');
